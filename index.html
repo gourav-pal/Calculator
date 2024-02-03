@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="icon" type="image/x-icon" href="/assets/calculator.png">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="toggle">
+        <img src="/assets/dark.png" alt="toggle" id="themeImage">
+    </div>
+    <div class="container">
+        <h1>Calculator</h1>
+    </div>
+    <div class="cal">
+    
+        <label>Num 1:</label>
+        <input type="number" name="" id="input-one">
+        <br>
+        <label for="operator">choose your operation</label>
+        <select name="operator" id="operator">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select>
+        <br>
+        <label>Num 2:</label>
+        <input type="number" name="" id="input-two">
+        <button id="equal-btn" type="button">=</button>
+    
+    <div class="outputBox"><h2 id="answer">Ans</h2></div>
+    </div>
+    <div id="history">history</div>
+
+    <script src="index.js"></script>
+</body>
+</html>
