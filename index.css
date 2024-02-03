@@ -4,13 +4,20 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f8f8;
+    color: #333; /* Default text color */
+}
+
+
 .cal {
     width: 300px; /* Adjust the width as needed */
     margin: 20px auto; /* Center the card horizontally */
     padding: 20px;
     border: 1px solid #ccc;
-    border-radius: 8px; /* Optional: Add rounded corners */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -31,20 +38,20 @@ select {
     box-sizing: border-box;
     border: 1px solid #ccc;
     border-radius: 4px;
-    appearance: none; /* Remove default styles on some browsers */
+    appearance: none; 
     background-color: white;
     cursor: pointer;
 }
 
 form {
-    margin-bottom: 20px; /* Add some space between the form and the output box */
+    margin-bottom: 20px; 
 }
 
 /* Style the option dropdown */
 select:focus {
     outline: none;
-    border-color: #007bff; /* Change border color on focus */
-    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Optional: Add a subtle box shadow on focus */
+    border-color: 
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
 }
 
 /* Style the button */
@@ -55,6 +62,7 @@ button {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    margin: auto;
     
 }
 
@@ -103,4 +111,3 @@ h1 {
     background-color: #464646;
     color: white;
 }
-
